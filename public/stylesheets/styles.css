@@ -6,22 +6,20 @@ grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
 
-body {
-    font-size: 1.5rem;
-}
-
 .navbar {
+    font-size: 1.5rem;
     padding: 20px 20px 20px 40px;
     box-shadow: 0 2px 6px 0 #9e9f9f;
 }
 
 footer {
+    font-size: 1rem;
     padding: 20px;
 }
 
 .home img {
     width: 65%;
-    margin: 0 0 30px 100px;
+    margin: 0 0 30px 120px;
 }
 
 .home-beer {
@@ -36,4 +34,30 @@ footer {
     margin: 15px;
     box-shadow: 0 2px 6px 0 #9e9f9f;
     font-size: 1.5rem;
+}
+
+.beers {
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.card {
+    margin: 50px;
+    box-shadow: 0 2px 6px 0 #9e9f9f;
+    padding: 15px;
+    text-align: center;
+}
+
+.card .description {
+    text-align: justify;
+}
+
+
+.card img {
+    width: 40%;
+    height: 300px;
+    object-fit: fit;
+    display: flex;
+    align-self: center;
+    padding: 15px;
 }

@@ -1,3 +1,8 @@
-<div>
-    Beers
+<div class="container beers">
+    <h2>Beers list</h2>
+    <div class="row">
+            {{#each beers}}
+            {{>beerCard}}
+            {{/each}}
+    </div>
 </div>
