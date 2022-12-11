@@ -1,8 +1,8 @@
-<div class="container beers">
-    <h2>Beers list</h2>
-    <div class="row">
+<div class="container">
+    <h2>Beers</h2>
+    <div class="row beers">
         {{#each beers}}
-        <article class="card">
+        <article class="col-md-3 col-sm-6 card">
             <a href="/beer-details/{{id}}" role="button">
                 <img src="{{image_url}}" class="card-img-top" alt="beer-bottle">
                 {{>beerCard}}

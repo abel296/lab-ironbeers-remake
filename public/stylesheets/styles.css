@@ -8,6 +8,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 h2 {
     text-align: center;
+    margin-top: 50px;
 }
 
 h5 {
@@ -22,7 +23,9 @@ h5 {
 
 footer {
     font-size: 1rem;
-    padding: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 0px;
 }
 
 .home img {
@@ -34,7 +37,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px 0;
+    margin: 70px 0 110px 0;
 }
 
 .home-beer a {
@@ -55,35 +58,27 @@ footer {
 }
 
 .card {
-    margin: 50px;
-    box-shadow: 0 2px 6px 0 #9e9f9f;
+    margin: 0px;
+    border: none;
     padding: 15px;
     text-align: center;
-    width: 18rem;
 }
 
 .card .description {
     text-align: justify;
 }
 
-.card a {
-    display: flex;
-    flex-direction: column;
-}
-
 .card img {
     width: 40%;
-    height: 300px;
-    object-fit: fit;
-    display: flex;
-    align-self: center;
-    padding: 15px;
+    height: 250px;
+    padding: 5px;
 }
 
 .random {
     display: flex;
     justify-content: space-between;
     padding: 121px 0;
+    margin-bottom: 180px;
 }
 
 .random-image {
@@ -94,7 +89,6 @@ footer {
 .random img {
     width: 75%;
     height: 300px;
-    
 }
 
 .random .card-body {
