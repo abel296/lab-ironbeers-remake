@@ -3,8 +3,8 @@
         <img src="{{image_url}}" class="card-img-top" alt="beer-bottle">
     </div>
     <div class="card-body">
-        <h5>{{name}}</h5>
-        <p class="description">{{description}}</p>
-        <p>First Brewed: {{first_brewed}}</p>
+        {{>beerCard}}
+        <p>{{tagline}}</p>
+        <p>Abv: {{abv}}</p>
     </div>
 </article>
