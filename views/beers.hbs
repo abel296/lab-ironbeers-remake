@@ -3,8 +3,10 @@
     <div class="row">
         {{#each beers}}
         <article class="card">
-            <img src="{{image_url}}" class="card-img-top" alt="beer-bottle">
-            {{>beerCard}}
+            <a href="/beer-details/{{id}}" role="button">
+                <img src="{{image_url}}" class="card-img-top" alt="beer-bottle">
+                {{>beerCard}}
+            </a>
         </article>
         {{/each}}
     </div>
