@@ -24,13 +24,18 @@ h5 {
 footer {
     font-size: 1rem;
     padding: 10px;
-    position: relative;
+    position: fixed;
     bottom: 0px;
+    width: 100%;
 }
 
 .home img {
-    width: 65%;
-    margin: 0 0 30px 120px;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+figure {
+    width: 20rem;
 }
 
 .home-beer {
@@ -41,10 +46,8 @@ footer {
 }
 
 .home-beer a {
-    padding: 10px 40px;
     margin: 15px;
     box-shadow: 0 2px 6px 0 #9e9f9f;
-    font-size: 1.5rem;
 }
 
 .beers {
